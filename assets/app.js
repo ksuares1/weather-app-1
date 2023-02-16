@@ -22,5 +22,9 @@ let weather = {
 };
 
 // write your code here
- let question = prompt("Enter your city:");
+ let city = prompt("Enter your city:");
+ 
+//  if(city ){
+
+//  }
 //  alert("It is currently 19°C (66°F) in Paris with a humidity of 80%")

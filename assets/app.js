@@ -20,11 +20,21 @@ let weather = {
     humidity: 20,
   },
 };
+//  console.log(weather);
+
+
 
 // write your code here
- let city = prompt("Enter your city:");
- 
-//  if(city ){
+ function atlas(){
+   let city = prompt("Enter your city:");
+  //  for(let i=0;i<weather.length;i++){
+  //   console.log(weather[i]);
+    if(city == weather.paris) {
+    alert("It is currently 19°C (66°F) in Paris with a humidity of 80%");
+     }
+     else{
+      alert("What country are you from?");
+     }
+ }
 
-//  }
-//  alert("It is currently 19°C (66°F) in Paris with a humidity of 80%")
+ atlas();

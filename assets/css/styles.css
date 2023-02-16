@@ -24,6 +24,18 @@ ul{
 }
 
 .clouds{
-    height:65%;
-    width:85%;
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+}
+
+a{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.units{
+ position: relative;
+ top: -34px;
 }

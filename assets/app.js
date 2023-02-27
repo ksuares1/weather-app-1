@@ -20,21 +20,27 @@ let weather = {
     humidity: 20,
   },
 };
-//  console.log(weather);
+  // console.log(weather['paris']['temp']);
 
 
 
 // write your code here
- function atlas(){
-   let city = prompt("Enter your city:");
-  //  for(let i=0;i<weather.length;i++){
-  //   console.log(weather[i]);
-    if(city == weather.paris) {
-    alert("It is currently 19°C (66°F) in Paris with a humidity of 80%");
-     }
-     else{
-      alert("What country are you from?");
-     }
- }
+ 
+let city = prompt("Enter your city:");
 
- atlas();
+function atlas(){
+  let temperature=weather[city].temp;
+
+      if (city === "Paris" ) {
+      // alert(`It is currently weather[city].temp in  +city with a humdity of .`);
+      console.log(weather[city].temp);
+    }
+     else {
+      alert(
+        "Sorry, we don't know the weather for this city, try going to https://www.google.com/search?q=weather+sydney");
+    }
+
+  }
+  atlas();
+
+  // || city === "Tokyo" || city === "Lisbon" || city === "San Francisco" || city === "Oslo"

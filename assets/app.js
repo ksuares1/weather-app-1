@@ -38,8 +38,13 @@ function atlas(){
    if (city === city)  {
         alert(`It is currently ${celsiusTemperature} °C ${fahrenheitTemperature} °F in ${city} with a humidity of ${humidity}% `
         );
-
     }
+    else if(weather[city] !== undefined){
+       alert(
+         `It is currently ${celsiusTemperature} °C ${fahrenheitTemperature} °F in ${city} with a humidity of ${humidity}% `
+       );
+    }
+
      else {
       alert(
         "Sorry, we don't know the weather for this city, try going to https://www.google.com/search?q=weather+sydney");

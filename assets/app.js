@@ -27,16 +27,17 @@ let weather = {
 // write your code here
  
 let city = prompt("Enter your city:");
-// city=city.toLowerCase();
-// city=city.trim();
-// let humidity = weather[city].humidity;
-// let temperature = weather[city].temp;
-// let celsiusTemperature = Math.round(temperature);
-// let fahrenheitTemperature = Math.round((temperature * 9) / 5 + 32);
-// || city === "Tokyo" || city === "Lisbon" || city === "San Francisco" || city === "Oslo"
+city=city.toLowerCase();
+city=city.trim();
+let humidity = weather[city].humidity;
+let temperature = weather[city].temp;
+let celsiusTemperature = Math.round(temperature);
+let fahrenheitTemperature = Math.round((temperature * 9) / 5 + 32);
+
 function atlas(){
    if (city === city)  {
-        alert(`It is currently 19°C (66°F) in ${city} with a humidity of 80% `);
+        alert(`It is currently ${celsiusTemperature} °C ${fahrenheitTemperature} °F in ${city} with a humidity of ${humidity}% `
+        );
 
     }
      else {

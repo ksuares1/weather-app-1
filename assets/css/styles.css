@@ -48,6 +48,7 @@ right:-35px;
     left: -130px;
     right: 35px;
     margin:0 auto;
+    width:50%;
 }
 .temperature{
     font-size: 24px;

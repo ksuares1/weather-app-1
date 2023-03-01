@@ -35,7 +35,7 @@ let city = prompt("Enter your city:");
 // let fahrenheitTemperature = Math.round((temperature * 9) / 5 + 32);
 // || city === "Tokyo" || city === "Lisbon" || city === "San Francisco" || city === "Oslo"
 function atlas(){
-   if (city === "Paris" )  {
+   if (city === city)  {
         alert(`It is currently 19°C (66°F) in ${city} with a humidity of 80% `);
 
     }
